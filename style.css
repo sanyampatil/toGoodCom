@@ -27,6 +27,7 @@ body {
     background-color: #F7F7F7;
 }
 
+ /*style for navbar---------------------------*/
 #nav {
     /* height: 100px; */
     width: 100%;
@@ -51,7 +52,6 @@ body {
 }
 
 #nav-part1 {
-    /* background-color: RED; */
     height: 82px;
     overflow: hidden;
 }
@@ -92,6 +92,10 @@ body {
 
 }
 
+/* ****************complete the navbar design */
+
+ /*style for page-1 ---------------------------*/
+
 #page1 {
     min-height: 100vh;
     /* background-color: aqua; */
@@ -109,6 +113,9 @@ body {
     line-height: 14vw;
     letter-spacing: -8px;
 }
+/* ****************complete the Page-1 design */
+
+ /*set the video container ---------------------------*/
 
 #video-container {
     height: 100vh;
@@ -137,6 +144,10 @@ body {
     scale: 0;
 
 }
+/* ****************complete complete video container design */
+
+
+ /*style for page-2 ---------------------------*/
 
 #page2 {
     border:2px solid red;
@@ -168,6 +179,7 @@ body {
 }
 
 
+/* ****************complete Page-2 container design */
 
 
 @media (max-width:600px) {
@@ -221,9 +233,22 @@ body {
 
     #nav-part2 #icons i {
         font-size: 15px;
-        margin: 0 20px;
+            margin: 0 20px;
         font-weight: 100;
     }
+    #page1 {
+        min-height: 70vh;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vh;
+
+    }
+
+    #page1 h1 {
+        font-size: 15.5vw;
+        letter-spacing: -3px;
+    }
+
 
    
 
