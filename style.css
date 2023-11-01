@@ -249,6 +249,23 @@ body {
         letter-spacing: -3px;
     }
 
+    #video-container {
+        height: 25vh;
+        margin-top: 3vw;
+    }
+
+     #video-container #play {
+        padding: 9.5vw 7.2vw;
+        font-size: 4.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%, -50%);
+    } 
+
+
 
    
 
