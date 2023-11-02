@@ -182,15 +182,30 @@ body {
 /* ****************complete Page-2 container design */
 
 #page3 {
-    border: 2px solid red;
     min-height: 120vh;
     width: 100%;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.child {
+    height: 54vh;
+    width: 38vw;
+        
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child img {
+    height: 100%;
+}
+
+
 
 @media (max-width:600px) {
     body{
@@ -305,7 +320,29 @@ body {
     }
 
 
+    #page3 {
+        min-height: 120vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 
+    .child {
+        position: relative;
+        height: 54vh;
+        width: 88vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15vw;
+    }
+
+    .child img {
+        height: 100%;
+    }
    
 
 }
